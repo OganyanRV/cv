@@ -26,10 +26,9 @@
 
 \RequirePackage{tikz}
 \RequirePackage{xcolor}
-\RequirePackage{fontawesome}
+% \RequirePackage{fontawesome}
 \usepackage{tikz}
 \usetikzlibrary{svg.path}
-
 
 \definecolor{cvblue}{HTML}{0E5484}
 \definecolor{black}{HTML}{130810}
@@ -166,7 +165,7 @@
 
 %-----------SUMMARY-----------
 \section{SUMMARY}
-I have recently graduated in software engineering and now I'm studying machine learning. I also used to do competitive programming in the past. I like to learn something new every day, am a hard-worker.
+I have graduated in software engineering and now I'm studying machine learning. I also used to do competitive programming in the past. I like to learn something new every day, am a hard-worker.
 
 %-----------EDUCATION-----------
 \section{EDUCATION}
@@ -179,9 +178,16 @@ I have recently graduated in software engineering and now I'm studying machine l
   
   \resumeSubHeadingListStart
     \resumeSubheading
-      {Yandex School of Data Analysis (YSDA)}{Sep. 2021 -- present}
-      {Machine Learning Engineering  - \textbf{GPA} - \textbf{4.17}}{Nizhniy Novgorod, RU}
-      {Advanced C++ 1$\&$2, Algorithms 1$\&$2, Machine learning 1$\&$2}
+      {Yandex School of Data Analysis (YSDA)}{Sep. 2021 -- June 2023}
+      {Machine Learning Engineering  - \textbf{GPA} - \textbf{4.15}}{Nizhniy Novgorod, RU}
+      {}
+  \resumeSubHeadingListEnd
+
+    \resumeSubHeadingListStart
+    \resumeSubheading
+      {Nizhny Novgorod Higher School of Economics (HSE)}{Sep. 2022 -- present}
+      {Applied Mathematics and Informatics  - \textbf{GPA} - \textbf{9}}{Nizhniy Novgorod, RU}
+      {}
   \resumeSubHeadingListEnd
 
 %-----------SKILLS-----------
@@ -189,9 +195,8 @@ I have recently graduated in software engineering and now I'm studying machine l
     %\resumeSubHeadingListStart
         \begin{multicols}{4}
             \begin{itemize}[itemsep=-2pt, parsep=5pt]
-                \item Data Structures \& Algorithms
-                \item Competitive Programming
                 \item Artificial Intelligence
+                \item Data Structures and Algorithms
                 \item OOPS Concept
             \end{itemize}
         \end{multicols}
@@ -217,9 +222,7 @@ I have recently graduated in software engineering and now I'm studying machine l
           {\textbf{\large{\underline{Ray tracer}} } $|$ \large{\underline{C++, STL, OOP, Data Structures }}}{Oct. 2021}
           \resumeItemListStart
             \resumeItem{\normalsize{Project of YSDA. Due to its rules, I'm not allowed to publish the code to open access, so contact me.}}
-            \resumeItem{\normalsize{Just a classical ray tracer.}}
-            \resumeItem{\normalsize{Supports different render modes.}}
-            \resumeItem{\normalsize{Supports scene reading (.obj file parser).}}
+            \resumeItem{\normalsize{Just a classical ray tracer. Supports different render modes and scene reading (.obj file parser).}}
           \resumeItemListEnd
           \vspace{-13pt}
 
@@ -232,13 +235,21 @@ I have recently graduated in software engineering and now I'm studying machine l
           \vspace{-13pt}
 
           \resumeProjectHeading
-          {\href{https://github.com/OganyanRV/Lambda-calculus-interpreter}{\textbf{\large{\underline{Research of quantitative characteristics of reductions in lambda calculus}}} \href{https://github.com/OganyanRV/Lambda-calculus-interpreter}{\raisebox{-0.1\height}\faGithub}} $|$ $\\$ \large{\underline{C++, STL, OOP, Data Structure}}}{June 2022}
+          {\href{https://github.com/OganyanRV/Lambda-calculus-interpreter}{\textbf{\large{\underline{Research of quantitative characteristics of reductions in lambda calculus}}} \href{https://github.com/OganyanRV/Lambda-calculus-interpreter}{\raisebox{-0.1\height}\faGithub}} $|$ \\ \large{\underline{C++, STL, OOP, Data Structure}}}{June 2022}
           \resumeItemListStart
            \resumeItem{\normalsize{Thesis work.}}
             \resumeItem{\normalsize{Implemented multi-functional interpreter of lambda-calculus.}}
             \resumeItem{\normalsize{Did the experiments on all possible lambda-terms and did the research.}}
+          \resumeItemListEnd
+        \vspace{-13pt}
+
+          \resumeProjectHeading
+          {\href{https://github.com/OganyanRV/Engagement-recognition-service}{\textbf{\large{\underline{Engagement recognition service}}} \href{https://github.com/OganyanRV/Engagement-recognition-service}{\raisebox{-0.1\height}\faGithub}} $|$ \large{\underline{DL, CV}}}{June 2023}
+          \resumeItemListStart
+           \resumeItem{\normalsize{Pet project for engagement recognition using Yolov5/v7.}}
             
           \resumeItemListEnd 
+    \resumeSubHeadingListEnd
          
 \vspace{-12pt}
 
@@ -263,7 +274,7 @@ I have recently graduated in software engineering and now I'm studying machine l
 \section{TECHNICAL SKILLS}
  \begin{itemize}[leftmargin=0.15in, label={}]
     \small{\item{
-     \textbf{\normalsize{Main Programming Languages:}}{ \normalsize{C++, Python.}}\\
+     \textbf{\normalsize{Main Programming Languages:}}{ \normalsize{C++, Python (Pytorch, Pandas, Numpy, Matplotlib, Opencv).}}\\  
      \textbf{\normalsize{Developer Tools:}}{ \normalsize{ JetBrains Clion, JetBrains PyCharm, Jupyter Notebook.}} \\
      \textbf{\normalsize{Technologies:}}{\normalsize{ Linux (wsl), Git, Latex.}} \\
      \textbf{\normalsize{Languages:}}{ \normalsize{ Russian Native, English Intermediate}}
@@ -284,6 +295,7 @@ I have recently graduated in software engineering and now I'm studying machine l
             
           \resumeItemListEnd 
           \vspace{-13pt}
+    \resumeSubHeadingListEnd
 
 \vspace{12pt}
  %-----------PUBLICATIONS---------------
@@ -294,11 +306,19 @@ I have recently graduated in software engineering and now I'm studying machine l
           {\href{https://medium.com/@Robasti/analysis-of-normal-forms-in-lambda-calculus-2de201df933d}{{\textbf{\large{Analysis of normal forms in lambda calculus }}}}{\href{https://medium.com/@Robasti/analysis-of-normal-forms-in-lambda-calculus-2de201df933d}{\raisebox{-0.1\height}\faMedium}}}{Jul. 2022}   
            \resumeItemListStart
           \vspace{5pt}
-           \resumeItem{\normalsize{How many lambda-terms have a normal form? How do terms change as a result of beta-reduction? Let's explore some characteristics!}}
+           \resumeItem{\normalsize{How many lambda-terms have a normal form? How do terms change as a result of beta-reduction? Let's explore some characteristics!}}            
+            \resumeItemListEnd 
+
+        \resumeProjectHeading
+          {\href{https://medium.com/@Robasti/comparison-of-different-reduction-evaluation-strategies-9c8933f9b882}{{\textbf{\large{Comparison of different reduction (evaluation) strategies  }}}}{\href{https://medium.com/@Robasti/comparison-of-different-reduction-evaluation-strategies-9c8933f9b882}{\raisebox{-0.1\height}\faMedium}}}{Aug. 2022}   
+           \resumeItemListStart
+          \vspace{5pt}
+           \resumeItem{\normalsize{What reduction strategies do we know? What are the differences between different reduction strategies? Let’s explore some characteristics and compare strategies to each other!}}            
+            \resumeItemListEnd 
             
-          \resumeItemListEnd 
+    \resumeSubHeadingListEnd
           
-          \vspace{-13pt}
+\vspace{-13pt}
 
  %-----------ACHIEVEMENTS---------------
 \section{ACHIEVEMENTS}
@@ -313,7 +333,7 @@ I have recently graduated in software engineering and now I'm studying machine l
            \resumeProjectHeading
           {{\textbf{\large{Participation in ICPC semi-final (Northern Eurasia finals)}}}}{Dec. 2020}
         
-          
-          \vspace{-13pt}
+    \resumeSubHeadingListEnd
+\vspace{-13pt}
 
 \end{document}
